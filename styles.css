@@ -1,0 +1,59 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-color: #B880EA;
+    color: white;
+}
+
+h1,
+p {
+    text-align: center;
+    margin: 0 1em;
+}
+
+.form {
+    width: 80%;
+    background-color: #8404F7;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    width: 100%;
+}
+
+input,
+select,
+textarea {
+    margin: 10 0 10px 0;
+}
+
+.first input {
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    display: block;
+}
+
+#submit {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    padding: 5px;
+}
